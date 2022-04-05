@@ -4,7 +4,7 @@ console.log("The notes app is running");
 
 const model = new Model();
 const notesView = new NotesView(model);
-model.addNote('buy cheese');
-notesView.displayNotes();
-console.log(model.getNotes());
+// model.addNote('This is an example note');
+// notesView.displayNotes();
+// console.log(model.getNotes());
 
